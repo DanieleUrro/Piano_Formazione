@@ -1,13 +1,13 @@
-def somma(a, b):
+def addizione(a, b):
     return a + b
 
 def sottrazione(a, b):
     return a - b
 
-def moltiplica(a, b):
+def moltiplicazione(a, b):
     return a * b
 
-def dividi(a, b):
+def divisione(a, b):
     return a / b
 
 print("=== Calcolatrice ===")
@@ -19,10 +19,10 @@ a = float(input("Inserisci il primo numero: "))
 b = float(input("Inserisci il secondo numero: "))
 
 if operazione == "+":
-    print("Risultato:", somma(a, b))
+    print("Risultato:", addizione(a, b))
 elif operazione == "-":
     print("Risultato:", sottrazione(a, b))
 elif operazione == "*":
-    print("Risultato:", moltiplica(a, b))
+    print("Risultato:", moltiplicazione(a, b))
 elif operazione == "/":
-    print("Risultato:", dividi(a, b))
+    print("Risultato:", divisione(a, b))
