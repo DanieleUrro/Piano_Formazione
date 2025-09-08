@@ -1,7 +1,7 @@
 def somma(a, b):
     return a + b
 
-def sottrai(a, b):
+def sottrazione(a, b):
     return a - b
 
 def moltiplica(a, b):
@@ -21,7 +21,7 @@ b = float(input("Inserisci il secondo numero: "))
 if operazione == "+":
     print("Risultato:", somma(a, b))
 elif operazione == "-":
-    print("Risultato:", sottrai(a, b))
+    print("Risultato:", sottrazione(a, b))
 elif operazione == "*":
     print("Risultato:", moltiplica(a, b))
 elif operazione == "/":
